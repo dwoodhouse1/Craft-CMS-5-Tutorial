@@ -1,0 +1,65 @@
+color: null
+fieldLayouts:
+  7bfd53c4-d0f0-40fd-8bd2-492448f2c6b6:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: e363b7ae-26c1-48c5-9299-986012b3337c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 67640af0-a4f7-410d-9151-f8971eb45f5b # Tip Content
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 33bbefb2-16b1-49f6-a0be-b46d8c075386
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 717fbc3a-d65f-482b-b5e3-8b2db89caaa6
+        userCondition: null
+handle: recipeTip
+hasTitleField: false
+icon: ''
+name: 'Recipe Tip'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

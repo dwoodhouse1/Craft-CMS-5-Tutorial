@@ -1,0 +1,22 @@
+columnSuffix: null
+handle: drinkStyle
+instructions: null
+name: 'Drink Style'
+searchable: false
+settings:
+  allowSelfRelations: false
+  branchLimit: null
+  localizeRelations: false
+  maintainHierarchy: false
+  maxRelations: null
+  minRelations: 1
+  selectionLabel: 'Add a drink style'
+  showCardsInGrid: false
+  showSiteMenu: false
+  source: 'group:2e87982a-f266-4d1f-8c83-0cfb7b7f876b' # Drink Styles
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: list
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Categories

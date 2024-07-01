@@ -1,0 +1,30 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 38a4e35d-28f0-4109-91a7-bb170b615556 # About Crafty Coffee
+handle: aboutCraftyCoffee
+maxAuthors: 1
+name: 'About Crafty Coffee'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  390b5f78-90ea-46fe-a0d3-31cfe4a41d7a: # My Example Craft Site
+    enabledByDefault: true
+    hasUrls: true
+    template: about/_entry
+    uriFormat: '{parent.uri}/{slug}'
+structure:
+  maxLevels: null
+  uid: 294f3876-02ca-4b63-82a9-03e9f912cbc4
+type: structure

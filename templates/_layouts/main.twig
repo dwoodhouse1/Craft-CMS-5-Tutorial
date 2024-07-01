@@ -1,0 +1,54 @@
+<!doctype html>
+<html class="no-js" lang="en"><!-- Directory starts at web/ -->
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Crafty Coffee</title>
+    <link rel="stylesheet" href="bower_components/foundation/css/foundation.css"/>
+    <link rel="stylesheet" href="/my-example-project/web/stylesheets/app.css"/>
+    <link rel="stylesheet" href="/maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <script src="bower_components/modernizr/modernizr.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display:700|Fauna+One|Pacifico|Merriweather+Sans:400,700' rel='stylesheet'
+          type='text/css'>
+
+</head>
+<body>
+<nav class="top-bar" data-topbar role="navigation">
+    <ul class="title-area">
+        <li class="name">
+            <h1><a href="/my-example-project/web/"><span class="scripty">Crafty</span></a></h1>
+        </li>
+        <li class="toggle-topbar menu-icon">
+            <a href="#"><span>Menu</span></a>
+        </li>
+    </ul>
+    <section class="top-bar-section">
+        <ul class="right">
+            <li><a href="#">About Crafty Coffee</a></li>
+            <li>
+                <a href="#">Our Signature Drinks</a>
+            </li>
+            <li>
+                <a href="#">Our Recipes</a>
+            </li>
+        </ul>
+    </section>
+</nav>
+
+{% block main %}
+    {# Overriding this with the extendee's templates content with the same name. This is also how you do a comment in Twig! #}
+{% endblock %}
+
+<div class="row">
+    <div class="footer">
+        <p>Copyright 2018 Crafty Coffee, Inc. All rights reserved. Enjoy the buzz! (Part of a <a href="https://mijingo.com/craft">Mijingo course </a>)</p>
+    </div>
+</div>
+<script src="/bower_components/jquery/dist/jquery.js"></script>
+<script src="/bower_components/foundation/js/foundation.min.js"></script>
+
+<script>
+    $(document).foundation();
+</script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+columnSuffix: null
+handle: newsBody
+instructions: null
+name: 'News Body'
+searchable: true
+settings:
+  availableTransforms: ''
+  availableVolumes: ''
+  ckeConfig: 6e6b28f5-2e82-4303-8eff-8837bb14f8e9 # Simple
+  createButtonLabel: null
+  defaultTransform: null
+  enableSourceEditingForNonAdmins: false
+  purifierConfig: null
+  purifyHtml: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  showWordCount: false
+  wordLimit: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\ckeditor\Field

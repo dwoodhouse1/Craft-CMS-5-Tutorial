@@ -1,0 +1,23 @@
+columnSuffix: null
+handle: drinkRecipe
+instructions: null
+name: 'Drink Recipe'
+searchable: false
+settings:
+  allowSelfRelations: false
+  branchLimit: null
+  localizeRelations: false
+  maintainHierarchy: false
+  maxRelations: 1
+  minRelations: null
+  selectionLabel: 'Add a drink recipe'
+  showCardsInGrid: false
+  showSiteMenu: false
+  sources:
+    - 'section:47c62729-74d4-45fd-9d41-495d616c05bc' # Recipes
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: list
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

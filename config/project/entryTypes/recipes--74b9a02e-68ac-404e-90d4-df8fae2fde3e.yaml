@@ -1,0 +1,80 @@
+color: null
+fieldLayouts:
+  273ade38-8e02-4ff7-99e8-44fae192e76f:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: 'Recipe Name'
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: e1db6934-e73a-44f0-bdbf-a184b96d34cf
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 6fedee50-cce7-483e-b10d-5e0dc15ffc44 # Drink Style
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 56be7740-69f5-483c-bce3-b603221b3c70
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 84b2badb-c279-430a-a3cd-dae9df7f4ffb # Recipe Contents
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 60c58042-1b97-4b54-9cf8-b98238e3917d
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: dea71830-a9fb-467e-be2b-0a8aaf1a35d7
+        userCondition: null
+handle: recipes
+hasTitleField: true
+icon: ''
+name: Recipes
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

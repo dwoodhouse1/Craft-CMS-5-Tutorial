@@ -1,0 +1,80 @@
+color: null
+fieldLayouts:
+  b858333e-9aa8-4bc4-a551-bb202f97c4e7:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: Headline
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 216f3adf-42e8-456e-95b2-b674bb60bd82
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 8b1872cf-5155-48fb-9b6f-6e6e23b0350f # Excerpt
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d255b11f-9f23-43a4-904d-8943702256a9
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9ed3094f-55b3-4d74-b89d-e15f66952941 # News Body
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6e23273a-c892-486d-914a-c617c8bd4289
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: e6cca038-8c2f-4212-8498-57d0f58a2a2a
+        userCondition: null
+handle: news
+hasTitleField: true
+icon: ''
+name: News
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

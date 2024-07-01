@@ -1,0 +1,25 @@
+columnSuffix: null
+handle: recipeContents
+instructions: null
+name: 'Recipe Contents'
+searchable: true
+settings:
+  createButtonLabel: null
+  entryTypes:
+    - 74b9a02e-68ac-404e-90d4-df8fae2fde3e # Recipes
+    - 81a3ad2a-fa5a-4a58-b624-26c48a8c30bd # Recipe Image
+    - c9e54129-94b5-4f8e-ae20-782487337285 # Recipe Tip
+    - 720a0d42-0409-41a0-a7c1-59a0ffb257d2 # Recipe Copy
+    - 253439b9-b499-4b2a-abe7-f18252d117fe # Recipe Steps
+    - 695a12c8-dbbd-4d04-8a61-b1ead97c70e1 # Recipe Ingredients
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

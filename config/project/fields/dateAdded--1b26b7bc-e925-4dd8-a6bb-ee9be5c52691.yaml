@@ -1,0 +1,16 @@
+columnSuffix: null
+handle: dateAdded
+instructions: null
+name: 'Date Added'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  initialRows: 4
+  multiline: false
+  placeholder: 'Added to the menu on:'
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

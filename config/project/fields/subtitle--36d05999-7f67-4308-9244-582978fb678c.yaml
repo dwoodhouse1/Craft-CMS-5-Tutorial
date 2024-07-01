@@ -1,0 +1,16 @@
+columnSuffix: null
+handle: subtitle
+instructions: null
+name: Subtitle
+searchable: true
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  initialRows: 4
+  multiline: false
+  placeholder: 'This is a subtitle'
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

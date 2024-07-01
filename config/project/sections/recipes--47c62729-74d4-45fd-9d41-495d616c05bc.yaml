@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 74b9a02e-68ac-404e-90d4-df8fae2fde3e # Recipes
+handle: recipes
+maxAuthors: 1
+name: Recipes
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  390b5f78-90ea-46fe-a0d3-31cfe4a41d7a: # My Example Craft Site
+    enabledByDefault: true
+    hasUrls: true
+    template: recipes/_entry
+    uriFormat: 'recipes/{slug}'
+type: channel

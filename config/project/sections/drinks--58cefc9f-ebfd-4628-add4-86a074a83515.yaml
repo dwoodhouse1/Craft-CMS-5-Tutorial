@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 80170955-ae12-4281-b702-d6506a4411df # Drinks
+handle: drinks
+maxAuthors: 1
+name: Drinks
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  390b5f78-90ea-46fe-a0d3-31cfe4a41d7a: # My Example Craft Site
+    enabledByDefault: true
+    hasUrls: true
+    template: drinks/_entry
+    uriFormat: 'drinks/{slug}'
+type: channel

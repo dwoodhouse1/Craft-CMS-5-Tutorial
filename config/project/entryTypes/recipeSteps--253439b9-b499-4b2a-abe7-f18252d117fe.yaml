@@ -1,0 +1,80 @@
+color: null
+fieldLayouts:
+  e5ea62ed-e92e-4b3a-9559-5c6c284e37fe:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: d2cdaf05-8fc5-4b0a-934e-ec22955372a9
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9f57a2d5-bcb2-4337-913c-0fab81f1b22d # Steps Title
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 73974b67-8db8-4335-9e59-631ad365c21a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: b003d9ec-8e06-4bd9-8e6e-5daf3ae13d20 # Steps Content
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e7032c6f-1727-4d87-bf17-036e85996303
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: c0bb75ba-7030-4eae-916b-6cd5b41eb4c3
+        userCondition: null
+handle: recipeSteps
+hasTitleField: false
+icon: ''
+name: 'Recipe Steps'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

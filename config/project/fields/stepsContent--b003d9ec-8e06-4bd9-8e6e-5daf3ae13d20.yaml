@@ -1,0 +1,32 @@
+columnSuffix: null
+handle: stepsContent
+instructions: null
+name: 'Steps Content'
+searchable: false
+settings:
+  addRowLabel: 'Add a row'
+  columns:
+    __assoc__:
+      -
+        - col1
+        -
+          __assoc__:
+            -
+              - heading
+              - 'Step Intstructions'
+            -
+              - handle
+              - stepIntstructions
+            -
+              - width
+              - ''
+            -
+              - type
+              - multiline
+  defaults: null
+  maxRows: null
+  minRows: null
+  staticRows: false
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Table

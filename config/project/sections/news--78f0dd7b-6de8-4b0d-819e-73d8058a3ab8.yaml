@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 965316bd-23a3-4bff-803c-ad8b7803430f # News
+handle: news
+maxAuthors: 1
+name: News
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  390b5f78-90ea-46fe-a0d3-31cfe4a41d7a: # My Example Craft Site
+    enabledByDefault: true
+    hasUrls: true
+    template: news/_entry
+    uriFormat: 'news/{slug}'
+type: channel

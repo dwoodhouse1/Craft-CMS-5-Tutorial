@@ -1,0 +1,65 @@
+color: null
+fieldLayouts:
+  7eecfd3a-e023-4ef8-874e-08a552fc0c55:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 6614b857-c03e-43d1-88da-dfbbd9ef919c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ca63383b-0341-45da-9e37-658b0e470084 # Ingredients
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e0ed1b29-a7a5-4ac6-aa51-6f9ac1f26cc1
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 2ed546a1-165d-42d5-b745-b58d723db0b3
+        userCondition: null
+handle: recipeIngredients
+hasTitleField: false
+icon: ''
+name: 'Recipe Ingredients'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

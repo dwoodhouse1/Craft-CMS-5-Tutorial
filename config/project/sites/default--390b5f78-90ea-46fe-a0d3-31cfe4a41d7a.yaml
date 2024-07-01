@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en
+name: 'My Example Craft Site'
+primary: true
+siteGroup: 19a20edf-4a89-46a8-aa59-3fcca62644f2 # My Example Craft Site
+sortOrder: 1
